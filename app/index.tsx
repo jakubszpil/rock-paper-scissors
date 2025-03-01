@@ -35,8 +35,10 @@ export default function Index() {
           <Text style={styles.scoreText}>
             Computer's choice: {computer.choice}
           </Text>
-          <Text style={styles.scoreText}>Your Score: {player.score}</Text>
-          <Text style={styles.scoreText}>Computer Score: {computer.score}</Text>
+          <Text style={styles.scoreText}>Your score: {player.score}</Text>
+          <Text style={styles.scoreText}>
+            Computer's score: {computer.score}
+          </Text>
           <Button
             style={{
               minHeight: 36,
